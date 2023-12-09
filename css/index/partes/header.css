@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    width: 100vw;
+    padding-left: 8.56rem;
+    padding-right: 8.81rem;
+    background-color: var(--cl-b02);
+    border-bottom: 2px solid var(--cl-b04);
+}
+
+.logo{
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-bold);
+    color: var(--cl-b13);
+    font-size: 2rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    z-index: 3;
+}
+
+.navbar a{
+    font-family: var(--font-title);
+    color: var(--cl-b13);
+    font-size: 1.12rem;
+}
+
+.btn-cv{
+    font-family: var(--font-title); 
+    font-weight: var(--font-weight-medium);
+    color: var(--cl-p06);
+    background-color: var(--cl-b13);
+    border-radius: 0.3rem;
+    padding: 1rem 2rem;
+}
