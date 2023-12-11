@@ -33,8 +33,9 @@
 .btn-cv{
     font-family: var(--font-title); 
     font-weight: var(--font-weight-medium);
-    color: var(--cl-p06);
-    background-color: var(--cl-b13);
+    text-transform: uppercase;
+    color: var(--cl-b13);
+    background-color: var(--cl-p06);
     border-radius: 0.3rem;
     padding: 1rem 2rem;
 }
