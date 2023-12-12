@@ -10,6 +10,39 @@
   text-decoration: none;
 }
 
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 4rem;
+}
+
+html::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: var(--cl-p06);
+  border-radius: 5rem;
+}
+
 body{
   overflow-x: hidden;
+  background-color: #0d0d0d;
+  margin: 0;
+}
+
+a{
+  background-color: transparent;
+  cursor: pointer;
+}
+
+h1, h2, h3, h5, h6{
+  font-family: var(--font-title);
+}
+
+p{
+  font-family: var(--font-text);
 }

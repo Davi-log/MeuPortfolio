@@ -5,4 +5,56 @@
 
 .texto-apresentacao{
     color: white;
+    width: 30.625rem;
+    margin-bottom: 2.3125rem;
+}
+
+.texto-apresentacao h3{
+    color: var(--cl-b04);
+    font-size: 2rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.texto-apresentacao h1{
+    color: var(--cl-b13);
+    font-size: 3.75rem;
+    font-weight: var(--font-weight-bold);
+}
+
+.texto-apresentacao p{
+    color: var(--cl-b09);
+    font-size: 1.25rem;
+    font-family: var(--font-text);
+    font-weight: var(--font-weight-medium);
+    line-height: 1.75rem;
+}
+
+.atributo{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.separador{
+    width: 31.25rem;
+    height: 0.125rem;
+    border-radius: 0.3125rem;
+    background: var(--cl-b04);
+}
+
+.atributo h2{
+    color: var(--cl-b13);
+    font-family: var(--font-text);
+    font-weight: var(--font-weight-bold);
+    font-size: 3rem;
+}
+
+.atributo h3{
+    color: var(--cl-b11);
+    font-family: var(--font-text);
+    font-weight: var(--font-weight-regular);
+    text-transform: uppercase;
+    font-size: 1.625rem;
 }

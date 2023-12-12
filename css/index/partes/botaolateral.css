@@ -1,0 +1,14 @@
+.menu-suspenso{
+    position: fixed;
+    width: 47px;
+    height: 250px;
+    bottom: 25%;
+    left: 40px;
+    background: var(--cl-b02);
+
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 1;
+}
