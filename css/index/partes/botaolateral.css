@@ -1,14 +1,34 @@
 .menu-suspenso{
     position: fixed;
-    width: 47px;
-    height: 250px;
+    width: 4rem;
+    height: 15.625rem;
     bottom: 25%;
-    left: 40px;
+    left: 2.5rem;
     background: var(--cl-b02);
+    box-shadow: 4px 4px var(--cl-b03);
 
     color: #fff;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
+    border-radius: 3.125rem;
     z-index: 1;
+}
+
+.menu-suspenso ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.menu-suspenso ul li{
+    padding: 0.2rem;
+    background-color: var(--cl-b13);
+    border-radius: 50%;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.menu-suspenso i{
+    font-size: 2rem;
+    color: var(--cl-b02);
 }
