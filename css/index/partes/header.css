@@ -4,8 +4,8 @@
     justify-content: space-between;
     height: 6rem;
     width: 100vw;
-    padding-left: 8.56rem;
-    padding-right: 8.81rem;
+    padding-left: 8.75rem;
+    padding-right: 8.75rem;
     background-color: var(--cl-b02);
     border-bottom: 2px solid var(--cl-b04);
 }

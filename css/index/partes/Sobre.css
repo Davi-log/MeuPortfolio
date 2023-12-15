@@ -1,6 +1,7 @@
 .Sobre{
     background: var(--cl-b03);
-    padding: 7.5rem 8.75rem 5rem 7.5rem;
+    padding: 7.5rem 8.75rem 5rem 8.75rem;
+    display: flex;
 }
 
 .texto-apresentacao{
@@ -57,4 +58,29 @@
     font-weight: var(--font-weight-regular);
     text-transform: uppercase;
     font-size: 1.625rem;
+}
+
+.container-qualificacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    width: 24rem;
+    height: 16.75rem;
+    background: var(--cl-b13);
+    border-radius: 0.625rem;
+    margin-bottom: 4rem;
+    margin-left: 12.5rem;
+}
+
+.box h3{
+    margin-top: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-medium);
+    color: var(--cl-b01);
+    font-size: 0.875rem;
+    letter-spacing: 0.28rem;
 }
