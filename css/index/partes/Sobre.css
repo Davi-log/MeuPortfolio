@@ -117,10 +117,16 @@
 .bloc-box{
     width: 28.75rem;
     display: flex;
+    align-items: center;
     margin-top: 2rem;
     gap: 2.5rem;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+}
+
+.certificado{
+    width: 5rem;
+    height: 5rem;
 }
 
 .tec-descript{
