@@ -63,15 +63,44 @@
 .container-qualificacao{
     display: flex;
     flex-direction: column;
+    margin-left: 7.5rem;
 }
 
 .box{
-    width: 24rem;
+    width: 28.75rem;
     height: 16.75rem;
-    background: var(--cl-b13);
     border-radius: 0.625rem;
     margin-bottom: 4rem;
-    margin-left: 12.5rem;
+
+    /* efeito de fundo*/
+    position: relative;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-position: 50% 50%;
+    background-size: 1.1rem 1.1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.box:after{
+    /* efeito de lux*/
+	content:"";
+    width: 1px;
+    height: 5rem;
+    position: absolute;
+    left: -1;
+    top: 70%;
+    transition: top, opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease;
+    background: linear-gradient(transparent, 
+					var(--cl-p06), 
+					transparent);
+    opacity: 0;
+}
+
+.box:hover:after{
+    top: 10%;
+    opacity: 1;
 }
 
 .box h3{
@@ -80,7 +109,32 @@
     text-transform: uppercase;
     font-family: var(--font-title);
     font-weight: var(--font-weight-medium);
-    color: var(--cl-b01);
+    color: var(--cl-b13);
     font-size: 0.875rem;
     letter-spacing: 0.28rem;
+}
+
+.bloc-box{
+    width: 28.75rem;
+    display: flex;
+    margin-top: 2rem;
+    gap: 2.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.tec-descript{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.tec-descript h2{
+    font-weight: var(--font-weight-semibold);
+    color: var(--cl-b10);
+}
+
+.tec-descript p{
+    font-weight: var(--font-weight-regular);
+    color: var(--cl-b06);
 }
