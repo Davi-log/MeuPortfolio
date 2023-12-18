@@ -144,3 +144,50 @@
     font-weight: var(--font-weight-regular);
     color: var(--cl-b06);
 }
+
+@media (max-width: 991px){
+   .Sobre{
+    flex-direction: column;
+   }
+
+   .sobre-mim{
+    margin-left: auto;
+   }
+
+   .texto-apresentacao{
+    width: 40rem;
+   }
+
+   .texto-apresentacao p{
+    font-size: 1rem;
+   }
+
+   .atributo h2{
+    font-size: 3.75rem;
+   }
+
+   .atributo h3{
+    font-size: 2.2rem;
+   }
+
+   .box{
+    height: 28rem;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+   }
+
+   .box h3{
+    font-size: 2rem;
+   }
+
+   .tec-descript{
+    gap: 1.75rem;
+   }
+
+   .tec-descript h2{
+    font-size: 1.5rem;
+   }
+
+   .tec-descript p{
+    font-size: 1.5rem;
+   }
+}

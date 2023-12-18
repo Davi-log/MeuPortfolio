@@ -20,7 +20,6 @@
 .navbar{
     display: flex;
     align-items: center;
-    gap: 2.5rem;
     z-index: 3;
 }
 
@@ -28,6 +27,13 @@
     font-family: var(--font-title);
     color: var(--cl-b13);
     font-size: 1.12rem;
+}
+
+.nav-list{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-cv{
@@ -40,6 +46,64 @@
 }
 
 .btn-cv a{
-    text-decoration: none;
     color: var(--cl-b13);
+}
+
+.menu-mobile{
+    display: none;
+    cursor: pointer;
+}
+
+.menu-mobile div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.menu-mobile div:hover{
+    background: var(--cl-p06);
+}
+
+
+@media (max-width: 991px){
+    .nav-list{
+        position: fixed;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: var(--cl-b02);
+        backdrop-filter: blur(3px);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+
+    .nav-list li{
+        margin-left: 0;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+    .nav-list.active{
+        transform: translateX(0);
+    }
+}
+
+.menu-mobile.active .line1{
+    transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.menu-mobile.active .line2{
+    opacity: 0;
+}
+
+.menu-mobile.active .line3{
+    transform: rotate(45deg) translate(-5px, -7px);
 }

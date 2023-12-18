@@ -35,6 +35,7 @@ body{
 }
 
 a{
+  text-decoration: none;
   background-color: transparent;
   cursor: pointer;
 }
@@ -47,6 +48,7 @@ p{
   font-family: var(--font-text);
 }
 
-.Title{
-  
+li{
+  list-style: none;
 }
+

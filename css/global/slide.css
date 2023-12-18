@@ -105,53 +105,6 @@
     background: #308ffc;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .navegacao-manual{
     position: absolute;
     width: 28.75rem;
@@ -230,4 +183,21 @@
 
 #radio5:checked ~ .navegacao-auto .botao-auto5{
     background: #308ffc;
+}
+
+@media (max-width: 991px){
+    .nav-auto{
+        margin-top: 19.7rem;
+    }
+    .nav-manual{
+        margin-top: 3rem;
+    }
+    .navegacao-manual{
+        margin-top: 3rem;
+    }
+    
+    .navegacao-auto{
+        margin-top: 19.7rem;
+    }
+    
 }
