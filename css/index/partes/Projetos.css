@@ -1,0 +1,17 @@
+.Projetos{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.container-projetos{
+    width: 72.5rem;
+    height: 39rem;
+    background: var(--cl-b03);
+    border-radius: 10px;
+}
+
+.img-projeto{
+    margin-top: 3.5rem;
+}
